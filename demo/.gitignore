@@ -23,3 +23,5 @@ shots*/
 
 # 开发辅助（本地跑截图/测量用，不进部署）
 scripts/dev/
+.vercel
+.env*
