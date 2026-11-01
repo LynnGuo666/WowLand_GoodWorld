@@ -10,3 +10,4 @@ demo/dist/
 demo/.vercel/
 demo/shots*/
 demo/scripts/dev/
+.vercel
