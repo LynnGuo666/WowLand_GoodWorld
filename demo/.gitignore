@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+
+# 构建产物（由 Vercel 构建生成）
+dist/
+.vercel/
+
+# 本地截图与临时产物
+shots/
+shots*/
+*.png
+!src/**/*.png
+
+# 系统与编辑器
+.DS_Store
+*.log
+.vite/
+
+# 本地环境变量
+.env
+.env.*
+!.env.example
+
+# 开发辅助（本地跑截图/测量用，不进部署）
+scripts/dev/

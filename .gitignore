@@ -3,3 +3,10 @@ node_modules/
 worlds/
 *.zip
 .env
+
+# 演示页的本地依赖与辅助产物
+demo/node_modules/
+demo/dist/
+demo/.vercel/
+demo/shots*/
+demo/scripts/dev/
